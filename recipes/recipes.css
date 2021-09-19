@@ -1,0 +1,47 @@
+*{
+    margin-left:0px;
+    margin-right:0px;
+    text-decoration:none;
+    color:black;
+}
+
+.nav-link{
+    display:flex;
+    justify-content: flex-start;
+    padding:10px;
+    font-size:15pt;
+
+}
+#links:hover{
+    color: #8454e3;
+ 
+}
+
+#recipeType{
+    text-align:center;
+    background-color:#8454e3;
+    padding:20px;
+}
+
+#foodimg{
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-content: center;
+    width:300px;
+    height:auto;
+    padding:10px;
+}
+
+.recipeContent{
+    border:solid;
+    margin-left:200px;
+    margin-right:200px;
+    padding:50px;
+}
+
+.titles{
+    text-align:center;
+    padding:10px;
+}
+
