@@ -1,25 +1,27 @@
 *{
-    margin-left:0px;
-    margin-right:0px;
+    margin: 0px;
     text-decoration:none;
-    color:black;
+    color: rgb(65, 65, 65);
 }
-
+.navbar{
+    background-color:#a981fa;
+    padding: 5px;
+}
 .nav-link{
     display:flex;
     justify-content: flex-start;
-    padding:10px;
-    font-size:15pt;
-
+    padding:8px;
+    font-size:13pt;
 }
-#links:hover{
-    color: #8454e3;
- 
+a:hover{
+    color: #7645d6;
+    background-color:rgb(167, 167, 167);
+    padding:8px;
+    border-radius:5pt;
 }
 
 #recipeType{
     text-align:center;
-    background-color:#8454e3;
     padding:20px;
 }
 
@@ -33,15 +35,41 @@
     padding:10px;
 }
 
+.ingredientContainer{
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:30pt;
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    width:800px;
+    background-color:#d8ccf0;
+    padding:20px;
+}
+
+.ingredients{
+    display:block;
+}
+
+.ingTitle{
+    display:flex;
+    justify-content: center;
+    color: rgb(65, 65, 65);
+}
 .recipeContent{
-    border:solid;
-    margin-left:200px;
-    margin-right:200px;
-    padding:50px;
+    margin-left:250px;
+    margin-right:250px;
+    padding:30px;
+
+}
+p, li {
+    text-rendering: optimizelegibility !important;
+    letter-spacing: .03em;
+    color:rgb(44, 44, 44);
 }
 
 .titles{
     text-align:center;
     padding:10px;
+    color: rgb(65, 65, 65);
 }
-

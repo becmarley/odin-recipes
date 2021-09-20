@@ -1,0 +1,38 @@
+*{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#mainpage{
+    text-align: center;
+    color:hsl(0, 0%, 39%);
+}
+
+.recipes {
+    display:flex;
+    justify-content: space-evenly;
+    padding:40px;
+    font-size:15pt;
+}
+a{
+    background-color:rgb(136, 76, 248);
+    padding:20px;
+    border-radius:10pt;
+}
+
+#foodimg{
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    align-content: center;
+    width:300px;
+    height:auto;
+    padding:10px;
+}
+.foodimages{
+    display:flex;
+    background-color: rgb(188, 147, 243);
+    border-radius:5pt;
+}
